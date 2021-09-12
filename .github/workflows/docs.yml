@@ -27,6 +27,14 @@ jobs:
           files: docker-bake.hcl
           targets: release
       -
+        name: 404 for GitHub Pages
+        run: |
+          cat > ./site/404.md <<EOL
+          ---
+          permalink: /404.html
+          ---
+          EOL
+      -
         name: Deploy
         if: github.event_name != 'pull_request'
         uses: crazy-max/ghaction-github-pages@v2
