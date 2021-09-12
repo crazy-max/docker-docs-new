@@ -46,8 +46,8 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   font:
-    text: "Open Sans"
-    code: "'Open Sans' Mono"
+    text: Roboto
+    code: Roboto Mono
   logo: assets/images/docs.svg
   favicon: assets/favicon.ico
 
