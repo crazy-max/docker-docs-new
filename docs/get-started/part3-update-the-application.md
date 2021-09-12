@@ -11,6 +11,7 @@ tags:
 ---
 
 # Part 3: Update the application
+{% include 'rtime.md' %}
 
 As a small feature request, we've been asked by the product team to change the
 "empty text" when we don't have any todo list items. They would like to

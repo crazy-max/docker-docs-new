@@ -11,6 +11,7 @@ tags:
 ---
 
 # Part 9: Image-building best practices
+{% include 'rtime.md' %}
 
 ## Security scanning
 

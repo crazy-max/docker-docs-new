@@ -15,14 +15,22 @@
   height: 0;
 }
 
+.md-header__source {
+  display: none;
+}
+
+.md-sidebar {
+  width: 12.5rem;
+}
+
+.md-nav {
+  font-size: .6rem;
+}
+
 .md-grid {
   max-width: 1720px;
 }
 
 .md-typeset__table code {
   word-break: normal;
-}
-
-.text-center {
-  text-align:center;
 }

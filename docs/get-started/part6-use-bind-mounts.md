@@ -11,6 +11,7 @@ tags:
 ---
 
 # Part 6: Use bind mounts
+{% include 'rtime.md' %}
 
 In the previous chapter, we talked about and used a **named volume** to persist
 the data in our database. Named volumes are great if we simply want to store

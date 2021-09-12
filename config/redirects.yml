@@ -1,9 +1,11 @@
 plugins:
-  redirects:
-    redirect_maps:
-      engine/docker-overview.md: get-started/docker-overview.md
-      engine/introduction/understanding-docker.md: get-started/docker-overview.md
-      engine/understanding-docker.md: get-started/docker-overview.md
-      engine/userguide/basics.md: get-started/docker-overview.md
-      get-started/index.md: get-started/docker-overview.md
-      introduction/understanding-docker.md: get-started/docker-overview.md
+  - redirects:
+      redirect_maps:
+        # get-started/docker-overview
+        engine/docker-overview.md: get-started/docker-overview.md
+        engine/introduction/understanding-docker.md: get-started/docker-overview.md
+        engine/understanding-docker.md: get-started/docker-overview.md
+        engine/userguide/basics.md: get-started/docker-overview.md
+        introduction/understanding-docker.md: get-started/docker-overview.md
+        # get-start direct
+        get-started/index.md: get-started/docker-overview.md

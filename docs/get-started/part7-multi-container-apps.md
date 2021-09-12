@@ -11,6 +11,7 @@ tags:
 ---
 
 # Part 7: Multi container apps
+{% include 'rtime.md' %}
 
 Up to this point, we have been working with single container apps. But, we now
 want to add MySQL to the application stack. The following question often arises:

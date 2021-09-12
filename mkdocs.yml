@@ -46,8 +46,8 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: "Open Sans"
+    code: "'Open Sans' Mono"
   logo: assets/images/docs.svg
   favicon: assets/favicon.ico
 
@@ -69,7 +69,8 @@ extra:
       link: https://twitter.com/Docker
 
 extra_css:
-  - assets/stylesheets/extra.css
+  - assets/stylesheets/main.css
+  - assets/stylesheets/override.css
 
 markdown_extensions:
   - admonition
@@ -96,10 +97,12 @@ plugins:
       fallback_to_build_date: true
       #enable_creation_date: true
   - macros:
-      j2_block_start_string: '[[%'
-      j2_block_end_string: '%]]'
-      j2_variable_start_string: '[['
-      j2_variable_end_string: ']]'
+      include_dir: includes
+#  - macros:
+#      j2_block_start_string: '{#'
+#      j2_block_end_string: '#}'
+#      j2_variable_start_string: '{{{'
+#      j2_variable_end_string: '}}}'
   - search:
       prebuild_index: python
       lang:

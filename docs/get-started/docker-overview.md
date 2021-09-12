@@ -8,9 +8,8 @@ tags:
   - understanding
 ---
 
-<p><span id="time"></span> minute read</p>
-
 # Docker overview
+{% include 'rtime.md' %}
 
 Docker is an open platform for developing, shipping, and running applications.
 Docker enables you to separate your applications from your infrastructure so

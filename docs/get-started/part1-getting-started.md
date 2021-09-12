@@ -11,6 +11,7 @@ tags:
 ---
 
 # Part 1: Getting started
+{% include 'rtime.md' %}
 
 Welcome! We are excited that you want to learn Docker.
 
@@ -47,7 +48,7 @@ system below to download Docker:
     For Docker Desktop installation instructions, see [Install Docker Desktop on Mac](../../docker-for-mac/install.md)
     and [Install Docker Desktop on Windows](../../docker-for-windows/install.md).
 
-{!eula.md!}
+{% include 'eula.md' %}
 
 ## Start the tutorial
 

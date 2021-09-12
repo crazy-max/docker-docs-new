@@ -19,3 +19,12 @@ docker buildx bake base
 docker run --rm -it -p 8000:8000 -v $(pwd):/docs docs:local
 # Open http://localhost:8000 in your browser
 ```
+
+## Resources
+
+* https://crazymax.dev/docker-docs/macros/
+* https://www.mkdocs.org/
+* https://squidfunk.github.io/mkdocs-material/getting-started/
+* https://facelessuser.github.io/pymdown-extensions/
+* https://mkdocs-macros-plugin.readthedocs.io/en/latest/
+* https://jinja.palletsprojects.com/en/3.0.x/templates/
