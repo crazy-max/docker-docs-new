@@ -18,7 +18,7 @@ RUN apk add --no-cache \
 
 FROM base AS generate
 RUN --mount=type=bind,target=. \
-  mkdocs build --strict --site-dir /tmp/site
+  mkdocs build --site-dir /tmp/site
 
 FROM scratch AS release
 COPY --from=generate /tmp/site/ /
