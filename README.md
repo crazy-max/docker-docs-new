@@ -1,5 +1,12 @@
 # Docker docs
 
+## About
+
+Sample repository for [Docker documentation](https://docs.docker.com/) to
+try out [Mkdocs Material](https://github.com/squidfunk/mkdocs-material/).
+
+Live at https://crazymax.dev/docker-docs/
+
 ## Usage
 
 ```shell
