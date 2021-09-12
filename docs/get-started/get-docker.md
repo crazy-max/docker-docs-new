@@ -16,6 +16,11 @@ tags:
   border-top: none;
   width: 33%;
 }
+@media screen and (max-width:76.1875em) {
+  .md-sidebar.md-sidebar--secondary {
+    display: none;
+  }
+}
 </style>
 
 # Get Docker

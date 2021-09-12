@@ -15,12 +15,14 @@
   height: 0;
 }
 
-.md-header__source {
-  display: none;
+@media screen and (max-width:76.1875em) {
+  .md-header__button.md-logo {
+    display: block;
+  }
 }
 
-.md-sidebar {
-  width: 12.5rem;
+.md-header__source {
+  display: none;
 }
 
 .md-nav {

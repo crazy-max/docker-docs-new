@@ -10,6 +10,14 @@ tags:
   - docker desktop
 ---
 
+<style>
+.md-typeset .md-button--primary {
+  min-width: 220px;
+  text-align: center;
+  margin-top: 5px;
+}
+</style>
+
 # Part 1: Getting started
 {% include 'rtime.md' %}
 
@@ -39,10 +47,10 @@ This tutorial assumes you have a current version of Docker installed on your
 machine. If you do not have Docker installed, choose your preferred operating
 system below to download Docker:
 
-[Mac with Intel chip](https://desktop.docker.com/mac/stable/amd64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-mac-amd64){: style="min-width:200px;font-size:80%;text-align:center;" .md-button .md-button--primary }
-[Mac with Apple chip](https://desktop.docker.com/mac/stable/arm64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-mac-arm64){: style="min-width:200px;font-size:80%;text-align:center;" .md-button .md-button--primary }
-[Windows](https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-win-amd64){: style="min-width:200px;font-size:80%;text-align:center;" .md-button .md-button--primary }
-[Linux](../../engine/install/index.md){: style="min-width:200px;font-size:80%;text-align:center;" .md-button .md-button--primary }
+[Mac with Intel chip](https://desktop.docker.com/mac/stable/amd64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-mac-amd64){: .md-button .md-button--primary }
+[Mac with Apple chip](https://desktop.docker.com/mac/stable/arm64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-mac-arm64){: .md-button .md-button--primary }
+[Windows](https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-win-amd64){: .md-button .md-button--primary }
+[Linux](../../engine/install/index.md){: .md-button .md-button--primary }
 
 !!! note
     For Docker Desktop installation instructions, see [Install Docker Desktop on Mac](../../docker-for-mac/install.md)
