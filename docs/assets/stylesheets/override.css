@@ -21,7 +21,7 @@
   }
 }
 
-.md-header__source, .md-source {
+.md-source .md-source__icon.md-icon, .md-source .md-source__repository {
   display: none;
 }
 

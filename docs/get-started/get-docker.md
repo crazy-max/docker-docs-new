@@ -4,6 +4,8 @@ tags:
   - download
   - documentation
   - manual
+hide:
+  - toc
 ---
 
 <style>
@@ -15,11 +17,6 @@ tags:
 .md-typeset table:not([class]) td {
   border-top: none;
   width: 33%;
-}
-@media screen and (max-width:76.1875em) {
-  .md-sidebar.md-sidebar--secondary {
-    display: none;
-  }
 }
 </style>
 
