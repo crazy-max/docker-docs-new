@@ -1,0 +1,18 @@
+INHERIT: redirects.yml
+
+nav:
+  - Home: index.md
+  - Get started:
+    - Docker overview: get-started/docker-overview.md
+    - Get Docker: get-started/get-docker.md
+    - Get Started:
+      - "Part 1: Getting started": get-started/part1-getting-started.md
+      - "Part 2: Sample application": get-started/part2-sample-application.md
+      - "Part 3: Update the application": get-started/part3-update-the-application.md
+      - "Part 4: Share the application": get-started/part4-share-the-application.md
+      - "Part 5: Persist the DB": get-started/part5-persist-the-db.md
+      - "Part 6: Use bind mounts": get-started/part6-use-bind-mounts.md
+      - "Part 7: Multi container apps": get-started/part7-multi-container-apps.md
+      - "Part 8: Using compose": get-started/part8-using-compose.md
+      - "Part 9: Image-building best practices": get-started/part9-image-building-best-practices.md
+      - "Part 10: What next?": get-started/part10-what-next.md

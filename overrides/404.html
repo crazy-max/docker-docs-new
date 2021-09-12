@@ -1,0 +1,47 @@
+{% extends "main.html" %}
+
+{% block extrahead %}
+<style>
+  .md-sidebar {
+    display: none;
+  }
+  .md-grid {
+    max-width: 61rem;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<h1>Sorry, we can't find that page</h1>
+<p>
+  There might be a mistake in the URL or you might've clicked a link to content
+  that no longer exists. If you think it's the latter, please file an issue in
+  our <a href="{{ config.repo_url }}/issues/new">issue tracker on GitHub</a>
+  and let us know what happened. Please also include a link to where the error
+  occurred, if applicable.
+</p>
+<p>
+  <a class="md-button md-button--primary newissue" href="h{{ config.repo_url }}/issues/new">
+    Click here to create a new ticket
+  </a>
+</p>
+<a href="{{ '' | url }}">
+  <img alt="Go to the homepage" src="{{ 'assets/images/404.png' | url }}">
+</a>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  let el = document.querySelector("a.newissue");
+  if (el) {
+    let url = new URL("{{ config.repo_url }}/issues/new");
+    url.searchParams.set("title", "404 at " + window.location.pathname);
+    let body = "I found a broken link : " + window.location.href;
+    if (document.referrer !== "") {
+      body += "\nI arrived on this page through: " + document.referrer
+    }
+    url.searchParams.set("body", body);
+    el.setAttribute("href", url.toString());
+  }
+</script>
+{% endblock %}

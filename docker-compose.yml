@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  docs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: base
+    ports:
+      - "8000:8000"
+    volumes:
+      - "${PWD}:/docs"
+    tty: true
