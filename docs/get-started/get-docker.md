@@ -30,5 +30,5 @@ section and choose the best installation path for you.
 
 | ![](../assets/images/misc/apple.png){: style=width:92px; } | ![](../assets/images/misc/windows.png){: style=width:92px; } | ![](../assets/images/misc/linux.png){: style=width:92px; } |
 | :----------------------------------: | :----------------------------------: | :----------------------------------: |
-| [Docker Desktop for Mac](/docker-for-mac/install/){: style="min-width:270px;" .md-button .md-button--primary } | [Docker Desktop for Windows](/docker-for-windows/install/){: style="min-width:270px;" .md-button .md-button--primary } | [Docker for Linux](/engine/install/){: style="min-width:270px;" .md-button .md-button--primary } |
+| [Docker Desktop for Mac](../../docker-for-mac/install.md){: style="min-width:270px;" .md-button .md-button--primary } | [Docker Desktop for Windows](../../docker-for-windows/install.md){: style="min-width:270px;" .md-button .md-button--primary } | [Docker for Linux](../../engine/install.md){: style="min-width:270px;" .md-button .md-button--primary } |
 | A native application using the macOS sandbox security model which delivers all Docker tools to your Mac. | A native Windows application which delivers all Docker tools to your Windows computer. | Install Docker on a computer which already has a Linux distribution installed. |

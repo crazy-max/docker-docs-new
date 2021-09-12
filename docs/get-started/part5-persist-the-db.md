@@ -85,7 +85,7 @@ definition each time it starts. While containers can create, update, and delete
 files, those changes are lost when the container is removed and all changes are
 isolated to that container. With volumes, we can change all of this.
 
-[Volumes](../storage/volumes.md) provide the ability to connect specific
+[Volumes](../../storage/volumes.md) provide the ability to connect specific
 filesystem paths of the container back to the host machine. If a directory in
 the container is mounted, changes in that directory are also seen on the host
 machine. If we mount that same directory across container restarts, we'd see
@@ -135,7 +135,7 @@ docker run -dp "3000:3000" -v todo-db:/etc/todos getting-started
 4. Once the container starts up, open the app and add a few items to your todo
 list.
 
-![Items added to todo list](images/items-added.png){: style=width:55%; .text-center }
+![Items added to todo list](../assets/images/get-started/items-added.png){: style=width:55%; .text-center }
 
 5. Stop and remove the container for the todo app. Use the Dashboard or
 `docker ps` to get the ID and then `docker rm -f <id>` to remove it.

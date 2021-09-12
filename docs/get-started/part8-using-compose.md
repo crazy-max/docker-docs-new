@@ -12,7 +12,7 @@ tags:
 
 # Part 8: Using compose
 
-[Docker Compose](../compose/index.md) is a tool that was developed to help
+[Docker Compose](../../compose/index.md) is a tool that was developed to help
 define and share multi-container applications. With Compose, we can create a
 YAML file to define the services and with a single command, can spin everything
 up or tear it all down.
@@ -30,7 +30,7 @@ So, how do we get started?
 If you installed Docker Desktop/Toolbox for either Windows or Mac, you already
 have Docker Compose! Play-with-Docker instances already have Docker Compose
 installed as well. If you are on a Linux machine, you will need to
-[install Docker Compose](../compose/install.md).
+[install Docker Compose](../../compose/install.md).
 
 After installation, you should be able to run the following and see version
 information.
@@ -45,7 +45,7 @@ docker-compose version
 
 2. In the compose file, we'll start off by defining the schema version. In most
    cases, it's best to use the latest supported version. You can look at the
-   [Compose file reference](../compose/compose-file/index.md) for the current
+   [Compose file reference](../../compose/compose-file/index.md) for the current
    schema versions and the compatibility matrix.
 
 ```yaml
@@ -119,8 +119,8 @@ services:
 ```
 
 3. Let's migrate the `-p 3000:3000` part of the command by defining the `ports`
-   for the service. We will use the [short syntax](../compose/compose-file/compose-file-v3.md#short-syntax-1)
-   here, but there is also a more verbose [long syntax](../compose/compose-file/compose-file-v3.md#long-syntax-1)
+   for the service. We will use the [short syntax](../../compose/compose-file/compose-file-v3.md#short-syntax-1)
+   here, but there is also a more verbose [long syntax](../../compose/compose-file/compose-file-v3.md#long-syntax-1)
    available as well.
 
 ```yaml
@@ -136,8 +136,8 @@ services:
 
 4. Next, we'll migrate both the working directory (`-w /app`) and the volume
    mapping (`-v "$(pwd):/app"`) by using the `working_dir` and `volumes`
-   definitions. Volumes also has a [short](../compose/compose-file/compose-file-v3.md#short-syntax-3)
-   and [long](../compose/compose-file/compose-file-v3.md#long-syntax-3) syntax.
+   definitions. Volumes also has a [short](../../compose/compose-file/compose-file-v3.md#short-syntax-3)
+   and [long](../../compose/compose-file/compose-file-v3.md#long-syntax-3) syntax.
 
 One advantage of Docker Compose volume definitions is we can use relative paths
 from the current directory.
@@ -221,7 +221,7 @@ services:
    happen when running with Compose. We need to define the volume in the top-level
    `volumes:` section and then specify the mountpoint in the service config.
    By simply providing only the volume name, the default options are used. There
-   are [many more options available](../compose/compose-file/compose-file-v3.md#volume-configuration-reference)
+   are [many more options available](../../compose/compose-file/compose-file-v3.md#volume-configuration-reference)
    though.
 
 ```yaml

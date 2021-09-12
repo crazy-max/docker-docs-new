@@ -53,10 +53,10 @@ The output lists the type of vulnerability, a URL to learn more, and importantly
 which version of the relevant library fixes the vulnerability.
 
 There are several other options, which you can read about in the
-[docker scan documentation](../engine/scan/index.md).
+[docker scan documentation](../../engine/scan/index.md).
 
 As well as scanning your newly built image on the command line, you can also
-[configure Docker Hub](../docker-hub/vulnerability-scanning.md) to scan all
+[configure Docker Hub](../../docker-hub/vulnerability-scanning.md) to scan all
 newly pushed images automatically, and you can then see the results in both
 Docker Hub and Docker Desktop.
 
@@ -158,7 +158,7 @@ node_modules
 ```
 
 `.dockerignore` files are an easy way to selectively copy only image relevant files.
-You can read more about this [here](../engine/reference/builder.md#dockerignore-file).
+You can read more about this [here](../../engine/reference/builder.md#dockerignore-file).
 In this case, the `node_modules` folder should be omitted in the second `COPY`
 step because otherwise, it would possibly overwrite files which were created by
 the command in the `RUN` step. For further details on why this is recommended
