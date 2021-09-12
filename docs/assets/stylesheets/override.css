@@ -21,7 +21,7 @@
   }
 }
 
-.md-header__source {
+.md-header__source, .md-source {
   display: none;
 }
 
