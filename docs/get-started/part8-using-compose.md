@@ -1,4 +1,5 @@
 ---
+description: Making our lives easier with Compose for our application
 tags:
   - get started
   - setup
@@ -9,9 +10,6 @@ tags:
   - containers
   - docker desktop
 ---
-
-# Part 8: Using compose
-{% include 'rtime.md' %}
 
 [Docker Compose](../../compose/index.md) is a tool that was developed to help
 define and share multi-container applications. With Compose, we can create a

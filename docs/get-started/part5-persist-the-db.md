@@ -1,4 +1,5 @@
 ---
+description: Making our DB persistent in our application
 tags:
   - get started
   - setup
@@ -9,9 +10,6 @@ tags:
   - containers
   - docker desktop
 ---
-
-# Part 5: Persist the DB
-{% include 'rtime.md' %}
 
 In case you didn't notice, our todo list is being wiped clean every single time
 we launch the container. Why is this? Let's dive into how the container is

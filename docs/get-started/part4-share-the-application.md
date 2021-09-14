@@ -1,4 +1,5 @@
 ---
+description: Sharing our image we built for our example application so we can run it else where and other developers can use it
 tags:
   - get started
   - setup
@@ -9,9 +10,6 @@ tags:
   - containers
   - docker desktop
 ---
-
-# Part 4: Share the application
-{% include 'rtime.md' %}
 
 Now that we've built an image, let's share it! To share Docker images, you have to use a Docker
 registry. The default registry is Docker Hub and is where all of the images we've used have come from.

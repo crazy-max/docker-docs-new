@@ -42,3 +42,28 @@
   <link rel="icon" type="image/png" href="{{ 'assets/meta/favicon-16x16.png' | url }}" sizes="16x16">
   <link rel="icon" type="image/png" href="{{ 'assets/meta/favicon-128.png' | url }}" sizes="128x128">
 {% endblock %}
+
+{% block content %}
+  {% if page.edit_url %}
+  <a href="{{ page.edit_url }}" title="{{ lang.t('edit.link.title') }}" class="md-content__button md-icon">
+    {% include ".icons/material/pencil.svg" %}
+  </a>
+  {% endif %}
+  {% if not "\x3ch1" in page.content %}
+    <h1>{{ page.title | d(config.site_name, true)}}</h1>
+  {% endif %}
+  {% if page and not page.is_homepage %}
+    {% set words = page.markdown | wordcount %}
+    {% if words >= 360 %}
+      <p class="reading-time">🕔 <em>Estimated reading time: {{ (words / 180) | round | int }} minutes</em></p>
+    {% endif %}
+  {% endif %}
+  {{ page.content }}
+  {% if page and page.meta %}
+    {% if page.meta.git_revision_date_localized or
+      page.meta.revision_date
+    %}
+      {% include "partials/source-file.html" %}
+    {% endif %}
+  {% endif %}
+{% endblock %}

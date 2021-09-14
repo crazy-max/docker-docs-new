@@ -1,4 +1,5 @@
 ---
+description: Tips for building the images for our application
 tags:
   - get started
   - setup
@@ -9,9 +10,6 @@ tags:
   - containers
   - docker desktop
 ---
-
-# Part 9: Image-building best practices
-{% include 'rtime.md' %}
 
 ## Security scanning
 

@@ -1,4 +1,5 @@
 ---
+description: Making sure you have more ideas of what you could do next with your application
 tags:
   - get started
   - setup
@@ -9,9 +10,6 @@ tags:
   - containers
   - docker desktop
 ---
-
-# Part 10: What next?
-{% include 'rtime.md' %}
 
 Although we're done with our workshop, there's still a LOT more to learn about
 containers! We're not going to go deep-dive here, but here are a few other

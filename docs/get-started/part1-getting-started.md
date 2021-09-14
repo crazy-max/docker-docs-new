@@ -1,4 +1,5 @@
 ---
+description: Get oriented on some basics of Docker and install Docker Desktop
 tags:
   - get started
   - setup
@@ -17,9 +18,6 @@ tags:
   margin-top: 5px;
 }
 </style>
-
-# Part 1: Getting started
-{% include 'rtime.md' %}
 
 Welcome! We are excited that you want to learn Docker.
 

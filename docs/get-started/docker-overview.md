@@ -1,4 +1,5 @@
 ---
+description: Docker explained in depth
 tags:
   - docker
   - introduction
@@ -7,9 +8,6 @@ tags:
   - technology
   - understanding
 ---
-
-# Docker overview
-{% include 'rtime.md' %}
 
 Docker is an open platform for developing, shipping, and running applications.
 Docker enables you to separate your applications from your infrastructure so

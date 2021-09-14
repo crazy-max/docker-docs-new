@@ -1,4 +1,5 @@
 ---
+description: Overview of our simple application for learning docker
 tags:
   - get started
   - setup
@@ -9,9 +10,6 @@ tags:
   - containers
   - docker desktop
 ---
-
-# Part 2: Sample application
-{% include 'rtime.md' %}
 
 For the rest of this tutorial, we will be working with a simple todo
 list manager that is running in Node.js. If you're not familiar with Node.js,
