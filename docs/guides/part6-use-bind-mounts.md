@@ -113,7 +113,7 @@ line 109:
 in the browser almost immediately. It might take a few seconds for the Node
 server to restart, so if you get an error, just try refreshing after a few seconds.
 
-![Screenshot of updated label for Add button](../assets/images/get-started/updated-add-button.png){: style="width:75%;" .text-center }
+![Screenshot of updated label for Add button](../assets/images/guides/updated-add-button.png){: style="width:75%;" .text-center }
 
 6. Feel free to make any other changes you'd like to make. When you're done,
 stop the container and build your new image using `docker build -t getting-started .`.

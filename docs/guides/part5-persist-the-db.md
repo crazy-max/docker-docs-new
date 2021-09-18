@@ -44,7 +44,7 @@ watching a file to keep the container running.
 open the Dashboard and click the first action of the container that is running
 the `ubuntu` image.
 
-![Dashboard open CLI into ubuntu container](../assets/images/get-started/dashboard-open-cli-ubuntu.png){: style=width:75% }
+![Dashboard open CLI into ubuntu container](../assets/images/guides/dashboard-open-cli-ubuntu.png){: style=width:75% }
 
 You will see a terminal that is running a shell in the ubuntu container. Run
 the following command to see the content of the `/data.txt` file. Close this
@@ -134,7 +134,7 @@ docker run -dp "3000:3000" -v todo-db:/etc/todos getting-started
 4. Once the container starts up, open the app and add a few items to your todo
 list.
 
-![Items added to todo list](../assets/images/get-started/items-added.png){: style=width:55%; .text-center }
+![Items added to todo list](../assets/images/guides/items-added.png){: style=width:55%; .text-center }
 
 5. Stop and remove the container for the todo app. Use the Dashboard or
 `docker ps` to get the ID and then `docker rm -f <id>` to remove it.

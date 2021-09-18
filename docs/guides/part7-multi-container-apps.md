@@ -29,7 +29,7 @@ starts one process), which adds complexity to container startup/shutdown
 And there are more reasons. So, we will update our application to work like
 this:
 
-![Todo App connected to MySQL container](../assets/images/get-started/multi-app-architecture.png){: .text-center }
+![Todo App connected to MySQL container](../assets/images/guides/multi-app-architecture.png){: .text-center }
 
 ## Container networking
 
@@ -272,7 +272,7 @@ If you take a quick look at the Docker Dashboard, you'll see that we have two
 app containers running. But, there's no real indication that they are grouped
 together in a single app. We'll see how to make that better shortly!
 
-![Docker Dashboard showing two ungrouped app containers](../assets/images/get-started/dashboard-multi-container-app.png)
+![Docker Dashboard showing two ungrouped app containers](../assets/images/guides/dashboard-multi-container-app.png)
 
 ## Recap
 

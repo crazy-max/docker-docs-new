@@ -355,7 +355,7 @@ If we look at the Docker Dashboard, we'll see that there is a group named
 containers together. By default, the project name is simply the name of the
 directory that the `docker-compose.yml` was located in.
 
-![Docker Dashboard with app project](../assets/images/get-started/dashboard-app-project-collapsed.png)
+![Docker Dashboard with app project](../assets/images/guides/dashboard-app-project-collapsed.png)
 
 If you twirl down the app, you will see the two containers we defined in the
 compose file. The names are also a little more descriptive, as they follow the
@@ -363,7 +363,7 @@ pattern of `<project-name>_<service-name>_<replica-number>`. So, it's very easy
 to quickly see what container is our app and which container is the mysql
 database.
 
-![Docker Dashboard with app project expanded](../assets/images/get-started/dashboard-app-project-expanded.png)
+![Docker Dashboard with app project expanded](../assets/images/guides/dashboard-app-project-expanded.png)
 
 ## Tear it all down
 

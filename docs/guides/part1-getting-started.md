@@ -94,7 +94,7 @@ To access the dashboard, follow the instructions for either
 now, you will see this tutorial running! The container name (`jolly_bouman` below) is a
 randomly created name. So, you'll most likely have a different name.
 
-![Tutorial container running in Docker Dashboard](../assets/images/get-started/tutorial-in-dashboard.png)
+![Tutorial container running in Docker Dashboard](../assets/images/guides/tutorial-in-dashboard.png)
 
 ## What is a container?
 

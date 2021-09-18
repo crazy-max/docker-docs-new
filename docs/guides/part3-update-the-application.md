@@ -99,7 +99,7 @@ collection of action buttons appear on the right.
 2. Click on the trash can icon to delete the container.
 3. Confirm the removal and you're done!
 
-![Docker Dashboard - removing a container](../assets/images/get-started/dashboard-removing-container.png)
+![Docker Dashboard - removing a container](../assets/images/guides/dashboard-removing-container.png)
 
 ### Start the updated app container
 
@@ -112,7 +112,7 @@ docker run -dp "3000:3000" getting-started
 2. Refresh your browser on [http://localhost:3000](http://localhost:3000) and
 you should see your updated help text!
 
-![Updated application with updated empty text](../assets/images/get-started/todo-list-updated-empty-text.png){: style="width:55%" .text-center }
+![Updated application with updated empty text](../assets/images/guides/todo-list-updated-empty-text.png){: style="width:55%" .text-center }
 
 ## Recap
 

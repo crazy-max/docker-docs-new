@@ -52,12 +52,14 @@ theme:
   favicon: assets/favicon.ico
 
 extra:
+  # FIXME: Google Analytics?
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
   seo:
-    google:
-    bing:
+    # FIXME: Add Google and Bing site verification
+    google: !ENV GOOGLE_SEARCH_KEY
+    bing: !ENV BING_SEARCH_KEY
     #alexa:
     #yandex:
   social:
@@ -68,6 +70,8 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/Docker
 
+extra_javascript:
+  - assets/javascript/extra.js
 extra_css:
   - assets/stylesheets/main.css
   - assets/stylesheets/override.css
@@ -95,20 +99,11 @@ plugins:
   - git-revision-date-localized:
       type: iso_datetime
       fallback_to_build_date: true
-      #enable_creation_date: true
   - macros:
       include_dir: includes
-#  - macros:
-#      j2_block_start_string: '{#'
-#      j2_block_end_string: '#}'
-#      j2_variable_start_string: '{{{'
-#      j2_variable_end_string: '}}}'
   - minify:
       minify_html: true
   - search:
       prebuild_index: python
       lang:
         - en
-# FIXME: Insider only
-#  - tags:
-#      tags_file: tags.md

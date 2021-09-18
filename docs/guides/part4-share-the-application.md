@@ -44,7 +44,7 @@ If you look on the right-side of the page, you'll see a section named
 **Docker commands**. This gives an example command that you will need to run to
 push to this repo.
 
-![Docker command with push example](../assets/images/get-started/push-command.png){: style=width:65% .text-center }
+![Docker command with push example](../assets/images/guides/push-command.png){: style=width:65% .text-center }
 
 ## Push the image
 
@@ -96,7 +96,7 @@ this, we will use Play with Docker.
 sidebar. If you don't see it, make your browser a little wider. After a few
 seconds, a terminal window opens in your browser.
 
-![Play with Docker add new instance](../assets/images/get-started/pwd-add-new-instance.png){: style=width:75% }
+![Play with Docker add new instance](../assets/images/guides/pwd-add-new-instance.png){: style=width:75% }
 
 5. In the terminal, start your freshly pushed app.
 

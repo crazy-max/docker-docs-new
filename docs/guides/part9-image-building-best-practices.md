@@ -59,7 +59,7 @@ As well as scanning your newly built image on the command line, you can also
 newly pushed images automatically, and you can then see the results in both
 Docker Hub and Docker Desktop.
 
-![Hub vulnerability scanning](../assets/images/get-started/hvs.png){: style=width:75% .text-center }
+![Hub vulnerability scanning](../assets/images/guides/hvs.png){: style=width:75% .text-center }
 
 ## Image layering
 

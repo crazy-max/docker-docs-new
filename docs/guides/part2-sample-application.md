@@ -20,7 +20,7 @@ building an app to prove out your MVP (minimum viable product). You want
 to show how it works and what it's capable of doing without needing to
 think about how it will work for a large team, multiple developers, etc.
 
-![Todo List Manager Screenshot](../assets/images/get-started/todo-list-sample.png){: style=width:50%; }
+![Todo List Manager Screenshot](../assets/images/guides/todo-list-sample.png){: style=width:50%; }
 
 ## Get the app
 
@@ -35,7 +35,7 @@ You can either pull the entire project or download it as a zip and extract the a
 in need of an editor, you can use [Visual Studio Code](https://code.visualstudio.com/){ target=_blank }.
 You should see the `package.json` and two subdirectories (`src` and `spec`).
 
-![Screenshot of Visual Studio Code opened with the app loaded](../assets/images/get-started/ide-screenshot.png){: style="width:650px;margin-top:20px;" .text-center }
+![Screenshot of Visual Studio Code opened with the app loaded](../assets/images/guides/ide-screenshot.png){: style="width:650px;margin-top:20px;" .text-center }
 
 ## Build the app's container image
 
@@ -105,7 +105,7 @@ access the application.
 2. After a few seconds, open your web browser to [http://localhost:3000](http://localhost:3000).
 You should see our app.
 
-![Empty Todo List](../assets/images/get-started/todo-list-empty.png){: style="width:450px;margin-top:20px;" .text-center }
+![Empty Todo List](../assets/images/guides/todo-list-empty.png){: style="width:450px;margin-top:20px;" .text-center }
 
 3. Go ahead and add an item or two and see that it works as you expect. You can
 mark items as complete and remove items. Your frontend is successfully storing
@@ -117,7 +117,7 @@ built by you. Now, let's make a few changes and learn about managing our contain
 If you take a quick look at the Docker Dashboard, you should see your two
 containers running now (this tutorial and your freshly launched app container).
 
-![Docker Dashboard with tutorial and app containers running](../assets/images/get-started/dashboard-two-containers.png)
+![Docker Dashboard with tutorial and app containers running](../assets/images/guides/dashboard-two-containers.png)
 
 ## Recap
 
