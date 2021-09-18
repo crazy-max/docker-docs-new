@@ -1,11 +1,13 @@
 plugins:
-  - redirects:
-      redirect_maps:
-        # guides/docker-overview
-        engine/docker-overview.md: guides/docker-overview.md
-        engine/introduction/understanding-docker.md: guides/docker-overview.md
-        engine/understanding-docker.md: guides/docker-overview.md
-        engine/userguide/basics.md: guides/docker-overview.md
-        introduction/understanding-docker.md: guides/docker-overview.md
-        # guides direct
-        guides/index.md: guides/docker-overview.md
+  redirects:
+    redirect_maps:
+      # /guides/docker-overview
+      engine/docker-overview.md: guides/docker-overview.md
+      engine/introduction/understanding-docker.md: guides/docker-overview.md
+      engine/understanding-docker.md: guides/docker-overview.md
+      engine/userguide/basics.md: guides/docker-overview.md
+      introduction/understanding-docker.md: guides/docker-overview.md
+      # /guides
+      guides/index.md: guides/docker-overview.md
+      # /manuals
+      manuals/index.md: manuals/desktop/overview.md

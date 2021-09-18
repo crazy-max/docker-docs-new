@@ -15,6 +15,7 @@ RUN apk add --no-cache \
     mkdocs-git-revision-date-localized-plugin \
     mkdocs-macros-plugin \
     mkdocs-minify-plugin \
+    mkdocs-redirects \
   && rm -rf /tmp/*
 
 FROM base AS generate

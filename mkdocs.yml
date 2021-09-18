@@ -95,15 +95,15 @@ markdown_extensions:
       toc_depth: 3
 
 plugins:
-  - awesome-pages
-  - git-revision-date-localized:
-      type: iso_datetime
-      fallback_to_build_date: true
-  - macros:
-      include_dir: includes
-  - minify:
-      minify_html: true
-  - search:
-      prebuild_index: python
-      lang:
-        - en
+  awesome-pages: {}
+  git-revision-date-localized:
+    type: iso_datetime
+    fallback_to_build_date: true
+  macros:
+    include_dir: includes
+  minify:
+    minify_html: true
+  search:
+    prebuild_index: python
+    lang:
+      - en
