@@ -65,10 +65,20 @@ extra:
   social:
     - icon: fontawesome/brands/docker
       link: https://www.docker.com/
-    - icon: fontawesome/brands/github-alt
+    - icon: fontawesome/brands/github
       link: https://github.com/docker
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/Docker
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/user/dockerrun
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/docker
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/docker.run
+    - icon: fontawesome/brands/slideshare
+      link: https://www.slideshare.net/docker
+    - icon: fontawesome/brands/reddit-alien
+      link: https://www.reddit.com/r/docker
 
 extra_javascript:
   - assets/javascript/extra.js
