@@ -5,7 +5,7 @@
 Sample repository for [Docker documentation](https://docs.docker.com/) to
 try out [Mkdocs Material](https://github.com/squidfunk/mkdocs-material/).
 
-Live at https://crazymax.dev/docker-docs/
+Live at https://docker.github.io/hack-embedded-docs-extension/
 
 ## Usage
 
@@ -26,7 +26,7 @@ docker buildx bake ddext --set *.tags=docker/embedded-docs-extension:0.1.0 --pus
 
 ## Resources
 
-* https://crazymax.dev/docker-docs/macros/
+* https://docker.github.io/hack-embedded-docs-extension/macros/
 * https://www.mkdocs.org/
 * https://squidfunk.github.io/mkdocs-material/getting-started/
 * https://facelessuser.github.io/pymdown-extensions/
