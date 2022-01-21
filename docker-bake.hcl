@@ -27,5 +27,5 @@ target "release" {
 
 target "ddext" {
   inherits = ["_common"]
-  target = "ddext"
+  target = "dd-ext"
 }
