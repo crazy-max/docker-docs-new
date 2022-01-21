@@ -1,0 +1,16 @@
+{
+  "desktop-plugin-version": "0.1.0",
+  "name": "Embedded Docs",
+  "provider": "Docker Inc.",
+  "icon":"docs.svg",
+  "vm": {
+    "composefile":"docker-compose.yml"
+  },
+  "ui": {
+    "dashboard-tab": {
+      "title": "Embedded Docs",
+      "root": "/ui",
+      "src": "index.html"
+    }
+  }
+}

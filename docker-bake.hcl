@@ -24,3 +24,8 @@ target "release" {
   target = "release"
   output = ["./site"]
 }
+
+target "ddext" {
+  inherits = ["_common"]
+  target = "dd-ext"
+}

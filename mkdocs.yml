@@ -2,7 +2,7 @@ INHERIT: config/nav.yml
 
 site_name: "Docker Documentation"
 site_author: "Docker"
-site_url: "https://crazymax.dev/docker-docs/"
+site_url: "http://localhost:8124"
 edit_uri: "edit/master/docs/"
 copyright: "Copyright &copy; 2013-2021 Docker Inc. All rights reserved."
 docs_dir: "docs"
