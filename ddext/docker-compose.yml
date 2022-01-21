@@ -1,0 +1,8 @@
+services:
+  docs:
+    image: ${DESKTOP_PLUGIN_IMAGE}
+    ports:
+      - "8124:8000"
+    cap_add:
+      - DAC_OVERRIDE
+      - FOWNER
