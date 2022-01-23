@@ -32,8 +32,8 @@ COPY --from=generate /tmp/site/ /usr/share/caddy/
 COPY rootfs /
 
 FROM serve as dd-ext
-LABEL org.opencontainers.image.title="Embedded Docs" \
-  org.opencontainers.image.description="Embedded Docs Extension." \
+LABEL org.opencontainers.image.title="Docker Docs" \
+  org.opencontainers.image.description="Embedded Docker Docs in Docker Desktop, always at hand" \
   org.opencontainers.image.vendor="Docker Inc." \
   com.docker.desktop.extension.api.version="0.2.0"
 COPY ddext /

@@ -1,6 +1,6 @@
 {
   "desktop-plugin-version": "0.1.0",
-  "name": "Embedded Docs",
+  "name": "Docker Docs",
   "provider": "Docker Inc.",
   "icon":"docs.svg",
   "vm": {
@@ -8,7 +8,7 @@
   },
   "ui": {
     "dashboard-tab": {
-      "title": "Embedded Docs",
+      "title": "Docker Docs",
       "root": "/ui",
       "src": "index.html"
     }
