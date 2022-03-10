@@ -1,0 +1,38 @@
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg,
+.md-nav__title .md-nav__button.md-logo img,
+.md-nav__title .md-nav__button.md-logo svg {
+  width: 100%;
+  height: 100%;
+}
+
+.md-header__topic span.md-ellipsis {
+  display: none;
+}
+
+.md-nav--primary .md-nav__title {
+  font-size: 0;
+  height: 0;
+}
+
+@media screen and (max-width:76.1875em) {
+  .md-header__button.md-logo {
+    display: block;
+  }
+}
+
+.md-source .md-source__icon.md-icon, .md-source .md-source__repository {
+  display: none;
+}
+
+.md-nav {
+  font-size: .6rem;
+}
+
+.md-grid {
+  max-width: 1720px;
+}
+
+.md-typeset__table code {
+  word-break: normal;
+}
